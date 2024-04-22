@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="Blue_dinosaur.Front" size="5.000000 5.000000"/>
+        <ImageTarget name="Blue_dinosaur.Back" size="5.000000 5.000000"/>
+        <ImageTarget name="Blue_dinosaur.Left" size="5.000000 5.000000"/>
+        <ImageTarget name="Blue_dinosaur.Top" size="5.000000 5.000000"/>
+        <ImageTarget name="Blue_dinosaur.Right" size="5.000000 5.000000"/>
+        <ImageTarget name="Blue_dinosaur.Bottom" size="5.000000 5.000000"/>
+        <MultiTarget name="Blue_dinosaur">
+            <Part name="Blue_dinosaur.Left" translation="-2.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Blue_dinosaur.Right" translation="2.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Blue_dinosaur.Front" translation="0 0 2.5" rotation="AD: 1 0 0 0"/>
+            <Part name="Blue_dinosaur.Back" translation="0 0 -2.5" rotation="AD: 0 1 0 180"/>
+            <Part name="Blue_dinosaur.Top" translation="0 2.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Blue_dinosaur.Bottom" translation="0 -2.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
